@@ -1,0 +1,28 @@
+[0.103s] Invoking command in '/home/erica/mercedes-brain/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erica/mercedes-brain/install/serial:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/serial -- -j4 -l4
+[0.351s] [100%] Built target serial
+[0.402s] Invoked command in '/home/erica/mercedes-brain/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erica/mercedes-brain/install/serial:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/serial -- -j4 -l4
+[0.449s] Invoking command in '/home/erica/mercedes-brain/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erica/mercedes-brain/install/serial:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/serial
+[0.484s] -- Install configuration: ""
+[0.487s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/share/serial/environment/library_path.sh
+[0.489s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/share/serial/environment/library_path.dsv
+[0.492s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/lib/libserial.a
+[0.492s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/include/serial/serial.h
+[0.493s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/include/serial/v8stdint.h
+[0.498s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[0.499s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[0.500s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/share/serial/environment/ament_prefix_path.sh
+[0.501s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/share/serial/environment/ament_prefix_path.dsv
+[0.502s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/share/serial/environment/path.sh
+[0.509s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/share/serial/environment/path.dsv
+[0.521s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/share/serial/local_setup.bash
+[0.527s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/share/serial/local_setup.sh
+[0.527s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/share/serial/local_setup.zsh
+[0.528s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/share/serial/local_setup.dsv
+[0.528s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/share/serial/package.dsv
+[0.529s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/share/ament_index/resource_index/packages/serial
+[0.530s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.530s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[0.532s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/share/serial/cmake/serialConfig.cmake
+[0.533s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/share/serial/cmake/serialConfig-version.cmake
+[0.534s] -- Up-to-date: /home/erica/mercedes-brain/install/serial/share/serial/package.xml
+[0.541s] Invoked command in '/home/erica/mercedes-brain/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erica/mercedes-brain/install/serial:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/serial

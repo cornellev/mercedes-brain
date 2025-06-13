@@ -1,0 +1,4 @@
+Invoking command in '/home/erica/mercedes-brain/build/src': /usr/bin/cmake /home/erica/mercedes-brain/src -DCMAKE_INSTALL_PREFIX=/home/erica/mercedes-brain/install/src
+Invoked command in '/home/erica/mercedes-brain/build/src' returned '0': /usr/bin/cmake /home/erica/mercedes-brain/src -DCMAKE_INSTALL_PREFIX=/home/erica/mercedes-brain/install/src
+Invoking command in '/home/erica/mercedes-brain/build/src': /usr/bin/cmake --build /home/erica/mercedes-brain/build/src -- -j4 -l4
+Invoked command in '/home/erica/mercedes-brain/build/src' returned '0': /usr/bin/cmake --build /home/erica/mercedes-brain/build/src -- -j4 -l4

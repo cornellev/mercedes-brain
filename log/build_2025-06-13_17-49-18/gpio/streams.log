@@ -1,0 +1,76 @@
+[0.089s] Invoking command in '/home/erica/mercedes-brain/build/gpio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erica/mercedes-brain/install/serial:/opt/ros/humble /usr/bin/cmake /home/erica/mercedes-brain/src/gpio -DCMAKE_INSTALL_PREFIX=/home/erica/mercedes-brain/install/gpio
+[0.386s] -- The C compiler identification is GNU 11.4.0
+[0.659s] -- The CXX compiler identification is GNU 11.4.0
+[0.691s] -- Detecting C compiler ABI info
+[1.018s] -- Detecting C compiler ABI info - done
+[1.043s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.045s] -- Detecting C compile features
+[1.047s] -- Detecting C compile features - done
+[1.061s] -- Detecting CXX compiler ABI info
+[1.411s] -- Detecting CXX compiler ABI info - done
+[1.438s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.440s] -- Detecting CXX compile features
+[1.443s] -- Detecting CXX compile features - done
+[1.478s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.192s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.854s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.272s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.333s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.406s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.497s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.624s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.990s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.022s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.603s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.825s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.184s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.279s] -- Looking for pthread.h
+[5.606s] -- Looking for pthread.h - found
+[5.608s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.932s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.939s] -- Found Threads: TRUE  
+[6.237s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.397s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[6.476s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.950s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.951s] -- Configured cppcheck include dirs: 
+[6.951s] -- Configured cppcheck exclude dirs and/or files: 
+[6.955s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.959s] -- Added test 'lint_cmake' to check CMake code style
+[6.963s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.970s] -- Added test 'uncrustify' to check C / C++ code style
+[6.970s] -- Configured uncrustify additional arguments: 
+[6.974s] -- Added test 'xmllint' to check XML markup files
+[6.983s] -- Configuring done
+[7.041s] -- Generating done
+[7.057s] -- Build files have been written to: /home/erica/mercedes-brain/build/gpio
+[7.093s] Invoked command in '/home/erica/mercedes-brain/build/gpio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erica/mercedes-brain/install/serial:/opt/ros/humble /usr/bin/cmake /home/erica/mercedes-brain/src/gpio -DCMAKE_INSTALL_PREFIX=/home/erica/mercedes-brain/install/gpio
+[7.101s] Invoking command in '/home/erica/mercedes-brain/build/gpio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erica/mercedes-brain/install/serial:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/gpio -- -j4 -l4
+[7.314s] [ 50%] [32mBuilding CXX object CMakeFiles/gpio_node.dir/src/gpio_node.cpp.o[0m
+[38.111s] [100%] [32m[1mLinking CXX executable gpio_node[0m
+[40.012s] [100%] Built target gpio_node
+[40.052s] Invoked command in '/home/erica/mercedes-brain/build/gpio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erica/mercedes-brain/install/serial:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/gpio -- -j4 -l4
+[40.061s] Invoking command in '/home/erica/mercedes-brain/build/gpio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erica/mercedes-brain/install/serial:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/gpio
+[40.089s] -- Install configuration: ""
+[40.090s] -- Installing: /home/erica/mercedes-brain/install/gpio/lib/gpio/gpio_node
+[40.116s] -- Set runtime path of "/home/erica/mercedes-brain/install/gpio/lib/gpio/gpio_node" to ""
+[40.117s] -- Installing: /home/erica/mercedes-brain/install/gpio/share/gpio/launch
+[40.117s] -- Installing: /home/erica/mercedes-brain/install/gpio/share/gpio/launch/launch.py
+[40.118s] -- Installing: /home/erica/mercedes-brain/install/gpio/share/gpio/config
+[40.118s] -- Installing: /home/erica/mercedes-brain/install/gpio/share/gpio/config/.gitkeep
+[40.120s] -- Installing: /home/erica/mercedes-brain/install/gpio/share/ament_index/resource_index/package_run_dependencies/gpio
+[40.121s] -- Installing: /home/erica/mercedes-brain/install/gpio/share/ament_index/resource_index/parent_prefix_path/gpio
+[40.123s] -- Installing: /home/erica/mercedes-brain/install/gpio/share/gpio/environment/ament_prefix_path.sh
+[40.124s] -- Installing: /home/erica/mercedes-brain/install/gpio/share/gpio/environment/ament_prefix_path.dsv
+[40.125s] -- Installing: /home/erica/mercedes-brain/install/gpio/share/gpio/environment/path.sh
+[40.126s] -- Installing: /home/erica/mercedes-brain/install/gpio/share/gpio/environment/path.dsv
+[40.127s] -- Installing: /home/erica/mercedes-brain/install/gpio/share/gpio/local_setup.bash
+[40.128s] -- Installing: /home/erica/mercedes-brain/install/gpio/share/gpio/local_setup.sh
+[40.129s] -- Installing: /home/erica/mercedes-brain/install/gpio/share/gpio/local_setup.zsh
+[40.130s] -- Installing: /home/erica/mercedes-brain/install/gpio/share/gpio/local_setup.dsv
+[40.132s] -- Installing: /home/erica/mercedes-brain/install/gpio/share/gpio/package.dsv
+[40.133s] -- Installing: /home/erica/mercedes-brain/install/gpio/share/ament_index/resource_index/packages/gpio
+[40.134s] -- Installing: /home/erica/mercedes-brain/install/gpio/share/gpio/cmake/gpioConfig.cmake
+[40.135s] -- Installing: /home/erica/mercedes-brain/install/gpio/share/gpio/cmake/gpioConfig-version.cmake
+[40.136s] -- Installing: /home/erica/mercedes-brain/install/gpio/share/gpio/package.xml
+[40.143s] Invoked command in '/home/erica/mercedes-brain/build/gpio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erica/mercedes-brain/install/serial:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/gpio

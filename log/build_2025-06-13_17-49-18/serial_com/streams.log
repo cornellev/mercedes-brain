@@ -1,0 +1,27 @@
+[0.124s] Invoking command in '/home/erica/mercedes-brain/build/serial_com': CMAKE_PREFIX_PATH=/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/cat-brain/install/gpio:/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/serial_com -- -j4 -l4
+[0.319s] [35m[1mConsolidate compiler generated dependencies of target serial_com[0m
+[0.422s] [100%] Built target serial_com
+[0.465s] Invoked command in '/home/erica/mercedes-brain/build/serial_com' returned '0': CMAKE_PREFIX_PATH=/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/cat-brain/install/gpio:/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/serial_com -- -j4 -l4
+[0.476s] Invoking command in '/home/erica/mercedes-brain/build/serial_com': CMAKE_PREFIX_PATH=/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/cat-brain/install/gpio:/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/serial_com
+[0.505s] -- Install configuration: ""
+[0.509s] -- Up-to-date: /home/erica/mercedes-brain/install/serial_com/lib/serial_com/serial_com
+[0.510s] -- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/launch
+[0.511s] -- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/launch/launch.py
+[0.512s] -- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/config
+[0.513s] -- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/config/.gitkeep
+[0.515s] -- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/ament_index/resource_index/package_run_dependencies/serial_com
+[0.516s] -- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/ament_index/resource_index/parent_prefix_path/serial_com
+[0.517s] -- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/environment/ament_prefix_path.sh
+[0.517s] -- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/environment/ament_prefix_path.dsv
+[0.518s] -- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/environment/path.sh
+[0.519s] -- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/environment/path.dsv
+[0.520s] -- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/local_setup.bash
+[0.520s] -- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/local_setup.sh
+[0.521s] -- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/local_setup.zsh
+[0.522s] -- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/local_setup.dsv
+[0.523s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/serial_com/package.dsv
+[0.523s] -- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/ament_index/resource_index/packages/serial_com
+[0.524s] -- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/cmake/serial_comConfig.cmake
+[0.536s] -- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/cmake/serial_comConfig-version.cmake
+[0.537s] -- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/package.xml
+[0.538s] Invoked command in '/home/erica/mercedes-brain/build/serial_com' returned '0': CMAKE_PREFIX_PATH=/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/cat-brain/install/gpio:/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/serial_com

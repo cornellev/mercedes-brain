@@ -1,0 +1,196 @@
+[0.639s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'gpio']
+[0.639s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['gpio'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff93373010>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff934ac4c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff934ac4c0>>)
+[1.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.819s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.819s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/erica/mercedes-brain'
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extensions ['ignore', 'ignore_ament_install']
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extension 'ignore'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extension 'ignore_ament_install'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extensions ['colcon_pkg']
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extension 'colcon_pkg'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extensions ['colcon_meta']
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extension 'colcon_meta'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extensions ['ros']
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extension 'ros'
+[1.912s] DEBUG:colcon.colcon_core.package_identification:Package 'src/brain' with type 'ros.ament_cmake' and name 'brain'
+[1.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpio) by extensions ['ignore', 'ignore_ament_install']
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpio) by extension 'ignore'
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpio) by extension 'ignore_ament_install'
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpio) by extensions ['colcon_pkg']
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpio) by extension 'colcon_pkg'
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpio) by extensions ['colcon_meta']
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpio) by extension 'colcon_meta'
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpio) by extensions ['ros']
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpio) by extension 'ros'
+[1.918s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gpio' with type 'ros.ament_cmake' and name 'gpio'
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'ignore'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'ignore_ament_install'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['colcon_pkg']
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'colcon_pkg'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['colcon_meta']
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'colcon_meta'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['ros']
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'ros'
+[1.925s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial-ros2' with type 'ros.ament_cmake' and name 'serial'
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com) by extensions ['ignore', 'ignore_ament_install']
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com) by extension 'ignore'
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com) by extension 'ignore_ament_install'
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com) by extensions ['colcon_pkg']
+[1.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com) by extension 'colcon_pkg'
+[1.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com) by extensions ['colcon_meta']
+[1.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com) by extension 'colcon_meta'
+[1.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com) by extensions ['ros']
+[1.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com) by extension 'ros'
+[1.931s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_com' with type 'ros.ament_cmake' and name 'serial_com'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['ignore', 'ignore_ament_install']
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'ignore'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'ignore_ament_install'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['colcon_pkg']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'colcon_pkg'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['colcon_meta']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'colcon_meta'
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['ros']
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'ros'
+[1.938s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop' with type 'ros.ament_cmake' and name 'teleop'
+[1.938s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.938s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.938s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.939s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.939s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.075s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'serial' in 'src/serial-ros2'
+[2.075s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'teleop' in 'src/teleop'
+[2.076s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'serial_com' in 'src/serial_com'
+[2.076s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'brain' in 'src/brain'
+[2.079s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.079s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.095s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/erica/mercedes-brain/install
+[2.105s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[2.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.322s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'gpio' is in: /home/erica/mercedes-brain/install/gpio
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding gpio
+
+This may be promoted to an error in a future release of colcon-override-check.
+[2.326s] Level 5:colcon.colcon_core.verb:set package 'gpio' build argument 'cmake_args' from command line to 'None'
+[2.326s] Level 5:colcon.colcon_core.verb:set package 'gpio' build argument 'cmake_target' from command line to 'None'
+[2.326s] Level 5:colcon.colcon_core.verb:set package 'gpio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.326s] Level 5:colcon.colcon_core.verb:set package 'gpio' build argument 'cmake_clean_cache' from command line to 'False'
+[2.326s] Level 5:colcon.colcon_core.verb:set package 'gpio' build argument 'cmake_clean_first' from command line to 'False'
+[2.326s] Level 5:colcon.colcon_core.verb:set package 'gpio' build argument 'cmake_force_configure' from command line to 'False'
+[2.326s] Level 5:colcon.colcon_core.verb:set package 'gpio' build argument 'ament_cmake_args' from command line to 'None'
+[2.327s] Level 5:colcon.colcon_core.verb:set package 'gpio' build argument 'catkin_cmake_args' from command line to 'None'
+[2.327s] Level 5:colcon.colcon_core.verb:set package 'gpio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.327s] DEBUG:colcon.colcon_core.verb:Building package 'gpio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erica/mercedes-brain/build/gpio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erica/mercedes-brain/install/gpio', 'merge_install': False, 'path': '/home/erica/mercedes-brain/src/gpio', 'symlink_install': False, 'test_result_base': None}
+[2.327s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.331s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.332s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erica/mercedes-brain/src/gpio' with build type 'ament_cmake'
+[2.332s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erica/mercedes-brain/src/gpio'
+[2.352s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erica/mercedes-brain/build/gpio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/gpio -- -j4 -l4
+[38.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erica/mercedes-brain/build/gpio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/gpio -- -j4 -l4
+[38.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erica/mercedes-brain/build/gpio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/gpio
+[38.299s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gpio)
+[38.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erica/mercedes-brain/build/gpio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/gpio
+[38.325s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/gpio' for CMake module files
+[38.329s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/gpio' for CMake config files
+[38.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('gpio', 'cmake_prefix_path')
+[38.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erica/mercedes-brain/install/gpio/share/gpio/hook/cmake_prefix_path.ps1'
+[38.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erica/mercedes-brain/install/gpio/share/gpio/hook/cmake_prefix_path.dsv'
+[38.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erica/mercedes-brain/install/gpio/share/gpio/hook/cmake_prefix_path.sh'
+[38.344s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/gpio/lib'
+[38.345s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/gpio/bin'
+[38.345s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/gpio/lib/pkgconfig/gpio.pc'
+[38.346s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/gpio/lib/python3.10/site-packages'
+[38.347s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/gpio/bin'
+[38.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/erica/mercedes-brain/install/gpio/share/gpio/package.ps1'
+[38.353s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erica/mercedes-brain/install/gpio/share/gpio/package.dsv'
+[38.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/erica/mercedes-brain/install/gpio/share/gpio/package.sh'
+[38.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/erica/mercedes-brain/install/gpio/share/gpio/package.bash'
+[38.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/erica/mercedes-brain/install/gpio/share/gpio/package.zsh'
+[38.369s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erica/mercedes-brain/install/gpio/share/colcon-core/packages/gpio)
+[38.372s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gpio)
+[38.373s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/gpio' for CMake module files
+[38.376s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/gpio' for CMake config files
+[38.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('gpio', 'cmake_prefix_path')
+[38.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erica/mercedes-brain/install/gpio/share/gpio/hook/cmake_prefix_path.ps1'
+[38.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erica/mercedes-brain/install/gpio/share/gpio/hook/cmake_prefix_path.dsv'
+[38.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erica/mercedes-brain/install/gpio/share/gpio/hook/cmake_prefix_path.sh'
+[38.386s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/gpio/lib'
+[38.387s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/gpio/bin'
+[38.387s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/gpio/lib/pkgconfig/gpio.pc'
+[38.388s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/gpio/lib/python3.10/site-packages'
+[38.389s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/gpio/bin'
+[38.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/erica/mercedes-brain/install/gpio/share/gpio/package.ps1'
+[38.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erica/mercedes-brain/install/gpio/share/gpio/package.dsv'
+[38.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/erica/mercedes-brain/install/gpio/share/gpio/package.sh'
+[38.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/erica/mercedes-brain/install/gpio/share/gpio/package.bash'
+[38.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/erica/mercedes-brain/install/gpio/share/gpio/package.zsh'
+[38.402s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erica/mercedes-brain/install/gpio/share/colcon-core/packages/gpio)
+[38.408s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[38.409s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[38.410s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[38.410s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[38.460s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[38.461s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[38.461s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[38.461s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[38.464s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[38.464s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[38.465s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erica/mercedes-brain/install/local_setup.ps1'
+[38.470s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/erica/mercedes-brain/install/_local_setup_util_ps1.py'
+[38.478s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erica/mercedes-brain/install/setup.ps1'
+[38.487s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erica/mercedes-brain/install/local_setup.sh'
+[38.491s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/erica/mercedes-brain/install/_local_setup_util_sh.py'
+[38.493s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erica/mercedes-brain/install/setup.sh'
+[38.500s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erica/mercedes-brain/install/local_setup.bash'
+[38.503s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erica/mercedes-brain/install/setup.bash'
+[38.509s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erica/mercedes-brain/install/local_setup.zsh'
+[38.513s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erica/mercedes-brain/install/setup.zsh'

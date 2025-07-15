@@ -1,0 +1,373 @@
+[0.000000] (-) TimerEvent: {}
+[0.001032] (-) JobUnselected: {'identifier': 'brain'}
+[0.001889] (-) JobUnselected: {'identifier': 'serial'}
+[0.002400] (-) JobUnselected: {'identifier': 'serial_com'}
+[0.002931] (-) JobUnselected: {'identifier': 'teleop'}
+[0.003123] (gpio) JobQueued: {'identifier': 'gpio', 'dependencies': OrderedDict()}
+[0.003412] (gpio) JobStarted: {'identifier': 'gpio'}
+[0.040523] (gpio) JobProgress: {'identifier': 'gpio', 'progress': 'cmake'}
+[0.043648] (gpio) JobProgress: {'identifier': 'gpio', 'progress': 'build'}
+[0.046854] (gpio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/erica/mercedes-brain/build/gpio', '--', '-j4', '-l4'], 'cwd': '/home/erica/mercedes-brain/build/gpio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 35947 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/erica/mercedes-brain/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/mercedes-brain/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/gpio:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/mercedes-brain/build/gpio'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 35947 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/gpio:/opt/ros/humble')]), 'shell': False}
+[0.099203] (-) TimerEvent: {}
+[0.199964] (-) TimerEvent: {}
+[0.229352] (gpio) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gpio_node\x1b[0m\n'}
+[0.300152] (-) TimerEvent: {}
+[0.323064] (gpio) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gpio_node.dir/src/gpio_node.cpp.o\x1b[0m\n'}
+[0.400332] (-) TimerEvent: {}
+[0.501056] (-) TimerEvent: {}
+[0.601766] (-) TimerEvent: {}
+[0.702498] (-) TimerEvent: {}
+[0.803204] (-) TimerEvent: {}
+[0.903908] (-) TimerEvent: {}
+[1.004653] (-) TimerEvent: {}
+[1.105476] (-) TimerEvent: {}
+[1.206472] (-) TimerEvent: {}
+[1.307205] (-) TimerEvent: {}
+[1.408010] (-) TimerEvent: {}
+[1.508718] (-) TimerEvent: {}
+[1.609448] (-) TimerEvent: {}
+[1.710177] (-) TimerEvent: {}
+[1.810905] (-) TimerEvent: {}
+[1.911619] (-) TimerEvent: {}
+[2.012401] (-) TimerEvent: {}
+[2.113219] (-) TimerEvent: {}
+[2.213990] (-) TimerEvent: {}
+[2.314750] (-) TimerEvent: {}
+[2.415613] (-) TimerEvent: {}
+[2.516375] (-) TimerEvent: {}
+[2.617163] (-) TimerEvent: {}
+[2.717980] (-) TimerEvent: {}
+[2.818843] (-) TimerEvent: {}
+[2.919636] (-) TimerEvent: {}
+[3.020411] (-) TimerEvent: {}
+[3.121200] (-) TimerEvent: {}
+[3.222000] (-) TimerEvent: {}
+[3.322759] (-) TimerEvent: {}
+[3.423556] (-) TimerEvent: {}
+[3.524351] (-) TimerEvent: {}
+[3.625143] (-) TimerEvent: {}
+[3.726012] (-) TimerEvent: {}
+[3.826883] (-) TimerEvent: {}
+[3.927953] (-) TimerEvent: {}
+[4.028733] (-) TimerEvent: {}
+[4.129520] (-) TimerEvent: {}
+[4.230291] (-) TimerEvent: {}
+[4.331150] (-) TimerEvent: {}
+[4.432063] (-) TimerEvent: {}
+[4.532824] (-) TimerEvent: {}
+[4.633655] (-) TimerEvent: {}
+[4.734439] (-) TimerEvent: {}
+[4.835264] (-) TimerEvent: {}
+[4.936033] (-) TimerEvent: {}
+[5.036790] (-) TimerEvent: {}
+[5.137625] (-) TimerEvent: {}
+[5.238380] (-) TimerEvent: {}
+[5.339229] (-) TimerEvent: {}
+[5.440031] (-) TimerEvent: {}
+[5.540824] (-) TimerEvent: {}
+[5.641650] (-) TimerEvent: {}
+[5.742559] (-) TimerEvent: {}
+[5.843404] (-) TimerEvent: {}
+[5.944184] (-) TimerEvent: {}
+[6.044974] (-) TimerEvent: {}
+[6.145850] (-) TimerEvent: {}
+[6.246667] (-) TimerEvent: {}
+[6.347399] (-) TimerEvent: {}
+[6.448170] (-) TimerEvent: {}
+[6.548919] (-) TimerEvent: {}
+[6.649756] (-) TimerEvent: {}
+[6.750612] (-) TimerEvent: {}
+[6.851376] (-) TimerEvent: {}
+[6.952126] (-) TimerEvent: {}
+[7.052977] (-) TimerEvent: {}
+[7.153764] (-) TimerEvent: {}
+[7.254528] (-) TimerEvent: {}
+[7.355390] (-) TimerEvent: {}
+[7.456176] (-) TimerEvent: {}
+[7.556957] (-) TimerEvent: {}
+[7.657795] (-) TimerEvent: {}
+[7.758618] (-) TimerEvent: {}
+[7.859399] (-) TimerEvent: {}
+[7.960188] (-) TimerEvent: {}
+[8.060959] (-) TimerEvent: {}
+[8.161826] (-) TimerEvent: {}
+[8.262681] (-) TimerEvent: {}
+[8.363486] (-) TimerEvent: {}
+[8.464261] (-) TimerEvent: {}
+[8.565048] (-) TimerEvent: {}
+[8.665868] (-) TimerEvent: {}
+[8.766693] (-) TimerEvent: {}
+[8.867743] (-) TimerEvent: {}
+[8.968625] (-) TimerEvent: {}
+[9.069464] (-) TimerEvent: {}
+[9.170281] (-) TimerEvent: {}
+[9.271092] (-) TimerEvent: {}
+[9.371873] (-) TimerEvent: {}
+[9.472649] (-) TimerEvent: {}
+[9.573493] (-) TimerEvent: {}
+[9.674278] (-) TimerEvent: {}
+[9.775090] (-) TimerEvent: {}
+[9.875874] (-) TimerEvent: {}
+[9.976634] (-) TimerEvent: {}
+[10.077403] (-) TimerEvent: {}
+[10.178234] (-) TimerEvent: {}
+[10.279078] (-) TimerEvent: {}
+[10.379857] (-) TimerEvent: {}
+[10.480662] (-) TimerEvent: {}
+[10.581440] (-) TimerEvent: {}
+[10.682217] (-) TimerEvent: {}
+[10.783085] (-) TimerEvent: {}
+[10.883861] (-) TimerEvent: {}
+[10.984664] (-) TimerEvent: {}
+[11.085449] (-) TimerEvent: {}
+[11.186219] (-) TimerEvent: {}
+[11.287027] (-) TimerEvent: {}
+[11.387993] (-) TimerEvent: {}
+[11.488754] (-) TimerEvent: {}
+[11.589510] (-) TimerEvent: {}
+[11.690288] (-) TimerEvent: {}
+[11.791118] (-) TimerEvent: {}
+[11.891919] (-) TimerEvent: {}
+[11.992696] (-) TimerEvent: {}
+[12.093482] (-) TimerEvent: {}
+[12.194255] (-) TimerEvent: {}
+[12.295078] (-) TimerEvent: {}
+[12.395832] (-) TimerEvent: {}
+[12.496592] (-) TimerEvent: {}
+[12.597369] (-) TimerEvent: {}
+[12.698190] (-) TimerEvent: {}
+[12.799069] (-) TimerEvent: {}
+[12.899849] (-) TimerEvent: {}
+[13.000632] (-) TimerEvent: {}
+[13.101466] (-) TimerEvent: {}
+[13.202270] (-) TimerEvent: {}
+[13.303076] (-) TimerEvent: {}
+[13.403849] (-) TimerEvent: {}
+[13.504643] (-) TimerEvent: {}
+[13.605431] (-) TimerEvent: {}
+[13.706253] (-) TimerEvent: {}
+[13.807110] (-) TimerEvent: {}
+[13.907871] (-) TimerEvent: {}
+[14.008642] (-) TimerEvent: {}
+[14.109411] (-) TimerEvent: {}
+[14.210210] (-) TimerEvent: {}
+[14.311002] (-) TimerEvent: {}
+[14.411772] (-) TimerEvent: {}
+[14.512525] (-) TimerEvent: {}
+[14.613302] (-) TimerEvent: {}
+[14.714112] (-) TimerEvent: {}
+[14.814973] (-) TimerEvent: {}
+[14.915769] (-) TimerEvent: {}
+[15.016560] (-) TimerEvent: {}
+[15.117386] (-) TimerEvent: {}
+[15.218171] (-) TimerEvent: {}
+[15.319019] (-) TimerEvent: {}
+[15.419890] (-) TimerEvent: {}
+[15.520734] (-) TimerEvent: {}
+[15.621609] (-) TimerEvent: {}
+[15.722487] (-) TimerEvent: {}
+[15.823287] (-) TimerEvent: {}
+[15.924079] (-) TimerEvent: {}
+[16.024856] (-) TimerEvent: {}
+[16.125622] (-) TimerEvent: {}
+[16.226400] (-) TimerEvent: {}
+[16.327210] (-) TimerEvent: {}
+[16.427980] (-) TimerEvent: {}
+[16.528767] (-) TimerEvent: {}
+[16.629556] (-) TimerEvent: {}
+[16.730340] (-) TimerEvent: {}
+[16.831161] (-) TimerEvent: {}
+[16.931949] (-) TimerEvent: {}
+[17.032754] (-) TimerEvent: {}
+[17.133807] (-) TimerEvent: {}
+[17.234517] (-) TimerEvent: {}
+[17.335330] (-) TimerEvent: {}
+[17.436290] (-) TimerEvent: {}
+[17.537053] (-) TimerEvent: {}
+[17.637826] (-) TimerEvent: {}
+[17.738645] (-) TimerEvent: {}
+[17.839450] (-) TimerEvent: {}
+[17.940249] (-) TimerEvent: {}
+[18.041044] (-) TimerEvent: {}
+[18.141842] (-) TimerEvent: {}
+[18.242694] (-) TimerEvent: {}
+[18.343478] (-) TimerEvent: {}
+[18.444269] (-) TimerEvent: {}
+[18.545048] (-) TimerEvent: {}
+[18.645791] (-) TimerEvent: {}
+[18.746637] (-) TimerEvent: {}
+[18.847658] (-) TimerEvent: {}
+[18.948570] (-) TimerEvent: {}
+[19.049552] (-) TimerEvent: {}
+[19.150325] (-) TimerEvent: {}
+[19.251188] (-) TimerEvent: {}
+[19.352136] (-) TimerEvent: {}
+[19.452892] (-) TimerEvent: {}
+[19.553638] (-) TimerEvent: {}
+[19.654429] (-) TimerEvent: {}
+[19.755286] (-) TimerEvent: {}
+[19.856032] (-) TimerEvent: {}
+[19.956828] (-) TimerEvent: {}
+[20.057612] (-) TimerEvent: {}
+[20.158442] (-) TimerEvent: {}
+[20.259238] (-) TimerEvent: {}
+[20.360008] (-) TimerEvent: {}
+[20.460731] (-) TimerEvent: {}
+[20.561510] (-) TimerEvent: {}
+[20.662310] (-) TimerEvent: {}
+[20.763127] (-) TimerEvent: {}
+[20.863872] (-) TimerEvent: {}
+[20.964611] (-) TimerEvent: {}
+[21.065370] (-) TimerEvent: {}
+[21.166148] (-) TimerEvent: {}
+[21.266953] (-) TimerEvent: {}
+[21.367695] (-) TimerEvent: {}
+[21.468484] (-) TimerEvent: {}
+[21.569247] (-) TimerEvent: {}
+[21.670001] (-) TimerEvent: {}
+[21.770757] (-) TimerEvent: {}
+[21.871509] (-) TimerEvent: {}
+[21.972275] (-) TimerEvent: {}
+[22.073066] (-) TimerEvent: {}
+[22.173874] (-) TimerEvent: {}
+[22.274690] (-) TimerEvent: {}
+[22.375483] (-) TimerEvent: {}
+[22.476246] (-) TimerEvent: {}
+[22.576994] (-) TimerEvent: {}
+[22.677769] (-) TimerEvent: {}
+[22.778561] (-) TimerEvent: {}
+[22.879381] (-) TimerEvent: {}
+[22.980127] (-) TimerEvent: {}
+[23.080913] (-) TimerEvent: {}
+[23.181681] (-) TimerEvent: {}
+[23.282447] (-) TimerEvent: {}
+[23.383239] (-) TimerEvent: {}
+[23.484012] (-) TimerEvent: {}
+[23.584790] (-) TimerEvent: {}
+[23.685529] (-) TimerEvent: {}
+[23.786285] (-) TimerEvent: {}
+[23.887069] (-) TimerEvent: {}
+[23.987840] (-) TimerEvent: {}
+[24.088574] (-) TimerEvent: {}
+[24.189354] (-) TimerEvent: {}
+[24.290115] (-) TimerEvent: {}
+[24.390913] (-) TimerEvent: {}
+[24.491663] (-) TimerEvent: {}
+[24.592401] (-) TimerEvent: {}
+[24.693230] (-) TimerEvent: {}
+[24.793982] (-) TimerEvent: {}
+[24.894740] (-) TimerEvent: {}
+[24.995500] (-) TimerEvent: {}
+[25.096310] (-) TimerEvent: {}
+[25.197102] (-) TimerEvent: {}
+[25.297932] (-) TimerEvent: {}
+[25.398733] (-) TimerEvent: {}
+[25.499477] (-) TimerEvent: {}
+[25.600283] (-) TimerEvent: {}
+[25.701092] (-) TimerEvent: {}
+[25.801854] (-) TimerEvent: {}
+[25.902665] (-) TimerEvent: {}
+[26.003504] (-) TimerEvent: {}
+[26.104229] (-) TimerEvent: {}
+[26.204998] (-) TimerEvent: {}
+[26.305773] (-) TimerEvent: {}
+[26.406523] (-) TimerEvent: {}
+[26.507330] (-) TimerEvent: {}
+[26.608098] (-) TimerEvent: {}
+[26.708878] (-) TimerEvent: {}
+[26.809671] (-) TimerEvent: {}
+[26.910438] (-) TimerEvent: {}
+[27.011253] (-) TimerEvent: {}
+[27.112013] (-) TimerEvent: {}
+[27.212806] (-) TimerEvent: {}
+[27.313569] (-) TimerEvent: {}
+[27.414343] (-) TimerEvent: {}
+[27.515146] (-) TimerEvent: {}
+[27.615910] (-) TimerEvent: {}
+[27.716671] (-) TimerEvent: {}
+[27.817452] (-) TimerEvent: {}
+[27.918226] (-) TimerEvent: {}
+[28.019020] (-) TimerEvent: {}
+[28.119815] (-) TimerEvent: {}
+[28.220590] (-) TimerEvent: {}
+[28.321380] (-) TimerEvent: {}
+[28.422172] (-) TimerEvent: {}
+[28.523003] (-) TimerEvent: {}
+[28.623807] (-) TimerEvent: {}
+[28.724875] (-) TimerEvent: {}
+[28.825874] (-) TimerEvent: {}
+[28.926749] (-) TimerEvent: {}
+[29.027537] (-) TimerEvent: {}
+[29.128299] (-) TimerEvent: {}
+[29.229073] (-) TimerEvent: {}
+[29.329836] (-) TimerEvent: {}
+[29.430650] (-) TimerEvent: {}
+[29.531415] (-) TimerEvent: {}
+[29.632212] (-) TimerEvent: {}
+[29.732968] (-) TimerEvent: {}
+[29.833714] (-) TimerEvent: {}
+[29.934448] (-) TimerEvent: {}
+[30.035209] (-) TimerEvent: {}
+[30.135956] (-) TimerEvent: {}
+[30.236731] (-) TimerEvent: {}
+[30.337472] (-) TimerEvent: {}
+[30.438236] (-) TimerEvent: {}
+[30.539062] (-) TimerEvent: {}
+[30.639977] (-) TimerEvent: {}
+[30.740901] (-) TimerEvent: {}
+[30.841678] (-) TimerEvent: {}
+[30.942469] (-) TimerEvent: {}
+[31.043518] (-) TimerEvent: {}
+[31.144794] (-) TimerEvent: {}
+[31.245574] (-) TimerEvent: {}
+[31.276431] (gpio) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gpio_node\x1b[0m\n'}
+[31.345757] (-) TimerEvent: {}
+[31.446556] (-) TimerEvent: {}
+[31.547585] (-) TimerEvent: {}
+[31.648538] (-) TimerEvent: {}
+[31.749532] (-) TimerEvent: {}
+[31.850468] (-) TimerEvent: {}
+[31.951532] (-) TimerEvent: {}
+[32.052847] (-) TimerEvent: {}
+[32.153845] (-) TimerEvent: {}
+[32.254798] (-) TimerEvent: {}
+[32.355550] (-) TimerEvent: {}
+[32.456259] (-) TimerEvent: {}
+[32.556953] (-) TimerEvent: {}
+[32.657648] (-) TimerEvent: {}
+[32.758335] (-) TimerEvent: {}
+[32.859111] (-) TimerEvent: {}
+[32.960326] (-) TimerEvent: {}
+[33.061198] (-) TimerEvent: {}
+[33.141820] (gpio) StdoutLine: {'line': b'[100%] Built target gpio_node\n'}
+[33.161337] (-) TimerEvent: {}
+[33.182233] (gpio) CommandEnded: {'returncode': 0}
+[33.184451] (gpio) JobProgress: {'identifier': 'gpio', 'progress': 'install'}
+[33.220393] (gpio) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/erica/mercedes-brain/build/gpio'], 'cwd': '/home/erica/mercedes-brain/build/gpio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 35947 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/erica/mercedes-brain/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/mercedes-brain/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/gpio:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/mercedes-brain/build/gpio'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 35947 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/gpio:/opt/ros/humble')]), 'shell': False}
+[33.249443] (gpio) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.250671] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/mercedes-brain/install/gpio/lib/gpio/gpio_node\n'}
+[33.261497] (-) TimerEvent: {}
+[33.284101] (gpio) StdoutLine: {'line': b'-- Set runtime path of "/home/erica/mercedes-brain/install/gpio/lib/gpio/gpio_node" to ""\n'}
+[33.284805] (gpio) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/gpio/share/gpio/launch\n'}
+[33.285349] (gpio) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/gpio/share/gpio/launch/launch.py\n'}
+[33.285797] (gpio) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/gpio/share/gpio/config\n'}
+[33.286217] (gpio) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/gpio/share/gpio/config/.gitkeep\n'}
+[33.286685] (gpio) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/gpio/share/ament_index/resource_index/package_run_dependencies/gpio\n'}
+[33.287161] (gpio) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/gpio/share/ament_index/resource_index/parent_prefix_path/gpio\n'}
+[33.287690] (gpio) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/gpio/share/gpio/environment/ament_prefix_path.sh\n'}
+[33.288127] (gpio) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/gpio/share/gpio/environment/ament_prefix_path.dsv\n'}
+[33.288554] (gpio) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/gpio/share/gpio/environment/path.sh\n'}
+[33.289060] (gpio) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/gpio/share/gpio/environment/path.dsv\n'}
+[33.289487] (gpio) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/gpio/share/gpio/local_setup.bash\n'}
+[33.289850] (gpio) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/gpio/share/gpio/local_setup.sh\n'}
+[33.290177] (gpio) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/gpio/share/gpio/local_setup.zsh\n'}
+[33.290556] (gpio) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/gpio/share/gpio/local_setup.dsv\n'}
+[33.291156] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/mercedes-brain/install/gpio/share/gpio/package.dsv\n'}
+[33.291668] (gpio) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/gpio/share/ament_index/resource_index/packages/gpio\n'}
+[33.292060] (gpio) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/gpio/share/gpio/cmake/gpioConfig.cmake\n'}
+[33.292454] (gpio) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/gpio/share/gpio/cmake/gpioConfig-version.cmake\n'}
+[33.292878] (gpio) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/gpio/share/gpio/package.xml\n'}
+[33.297043] (gpio) CommandEnded: {'returncode': 0}
+[33.362370] (-) TimerEvent: {}
+[33.375410] (gpio) JobEnded: {'identifier': 'gpio', 'rc': 0}
+[33.378256] (-) EventReactorShutdown: {}

@@ -1,0 +1,33 @@
+[0.068s] Invoking command in '/home/erica/mercedes-brain/build/brain': AMENT_PREFIX_PATH=/home/erica/mercedes-brain/install/gpio:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erica/mercedes-brain/install/serial_com:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/gpio:/home/erica/mercedes-brain/install/brain:/home/erica/cat-brain/install/gpio:/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/brain -- -j4 -l4
+[0.160s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.718s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.025s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.027s] -- Added test 'lint_cmake' to check CMake code style
+[1.029s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.035s] -- Added test 'xmllint' to check XML markup files
+[1.041s] -- Configuring done
+[1.065s] -- Generating done
+[1.076s] -- Build files have been written to: /home/erica/mercedes-brain/build/brain
+[1.153s] Invoked command in '/home/erica/mercedes-brain/build/brain' returned '0': AMENT_PREFIX_PATH=/home/erica/mercedes-brain/install/gpio:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erica/mercedes-brain/install/serial_com:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/gpio:/home/erica/mercedes-brain/install/brain:/home/erica/cat-brain/install/gpio:/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/brain -- -j4 -l4
+[1.163s] Invoking command in '/home/erica/mercedes-brain/build/brain': AMENT_PREFIX_PATH=/home/erica/mercedes-brain/install/gpio:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erica/mercedes-brain/install/serial_com:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/gpio:/home/erica/mercedes-brain/install/brain:/home/erica/cat-brain/install/gpio:/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/brain
+[1.193s] -- Install configuration: ""
+[1.193s] -- Up-to-date: /home/erica/mercedes-brain/install/brain/share/brain/launch
+[1.194s] -- Installing: /home/erica/mercedes-brain/install/brain/share/brain/launch/launch.py
+[1.195s] -- Up-to-date: /home/erica/mercedes-brain/install/brain/share/brain/config
+[1.195s] -- Up-to-date: /home/erica/mercedes-brain/install/brain/share/brain/config/.gitkeep
+[1.195s] -- Installing: /home/erica/mercedes-brain/install/brain/share/ament_index/resource_index/package_run_dependencies/brain
+[1.197s] -- Installing: /home/erica/mercedes-brain/install/brain/share/ament_index/resource_index/parent_prefix_path/brain
+[1.198s] -- Up-to-date: /home/erica/mercedes-brain/install/brain/share/brain/environment/ament_prefix_path.sh
+[1.199s] -- Installing: /home/erica/mercedes-brain/install/brain/share/brain/environment/ament_prefix_path.dsv
+[1.200s] -- Up-to-date: /home/erica/mercedes-brain/install/brain/share/brain/environment/path.sh
+[1.200s] -- Installing: /home/erica/mercedes-brain/install/brain/share/brain/environment/path.dsv
+[1.201s] -- Up-to-date: /home/erica/mercedes-brain/install/brain/share/brain/local_setup.bash
+[1.202s] -- Up-to-date: /home/erica/mercedes-brain/install/brain/share/brain/local_setup.sh
+[1.202s] -- Up-to-date: /home/erica/mercedes-brain/install/brain/share/brain/local_setup.zsh
+[1.203s] -- Installing: /home/erica/mercedes-brain/install/brain/share/brain/local_setup.dsv
+[1.204s] -- Installing: /home/erica/mercedes-brain/install/brain/share/brain/package.dsv
+[1.205s] -- Up-to-date: /home/erica/mercedes-brain/install/brain/share/ament_index/resource_index/packages/brain
+[1.205s] -- Up-to-date: /home/erica/mercedes-brain/install/brain/share/brain/cmake/brainConfig.cmake
+[1.206s] -- Up-to-date: /home/erica/mercedes-brain/install/brain/share/brain/cmake/brainConfig-version.cmake
+[1.206s] -- Installing: /home/erica/mercedes-brain/install/brain/share/brain/package.xml
+[1.215s] Invoked command in '/home/erica/mercedes-brain/build/brain' returned '0': AMENT_PREFIX_PATH=/home/erica/mercedes-brain/install/gpio:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erica/mercedes-brain/install/serial_com:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/gpio:/home/erica/mercedes-brain/install/brain:/home/erica/cat-brain/install/gpio:/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/brain

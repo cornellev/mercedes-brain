@@ -1,0 +1,32 @@
+[0.048s] Invoking command in '/home/erica/mercedes-brain/build/src': /usr/bin/cmake /home/erica/mercedes-brain/src -DCMAKE_INSTALL_PREFIX=/home/erica/mercedes-brain/install/src
+[0.085s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.085s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.085s]   contain a literal, direct call to the project() command.  Add a line of
+[0.086s]   code such as
+[0.086s] 
+[0.086s]     project(ProjectName)
+[0.087s] 
+[0.087s]   near the top of the file, but after cmake_minimum_required().
+[0.087s] 
+[0.088s]   CMake is pretending there is a "project(Project)" command on the first
+[0.088s]   line.
+[0.088s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.089s] [0m
+[0.322s] -- The C compiler identification is GNU 11.4.0
+[0.580s] -- The CXX compiler identification is GNU 11.4.0
+[0.612s] -- Detecting C compiler ABI info
+[0.927s] -- Detecting C compiler ABI info - done
+[0.957s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.958s] -- Detecting C compile features
+[0.960s] -- Detecting C compile features - done
+[0.973s] -- Detecting CXX compiler ABI info
+[1.318s] -- Detecting CXX compiler ABI info - done
+[1.349s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.350s] -- Detecting CXX compile features
+[1.352s] -- Detecting CXX compile features - done
+[1.355s] -- Configuring done
+[1.361s] -- Generating done
+[1.365s] -- Build files have been written to: /home/erica/mercedes-brain/build/src
+[1.378s] Invoked command in '/home/erica/mercedes-brain/build/src' returned '0': /usr/bin/cmake /home/erica/mercedes-brain/src -DCMAKE_INSTALL_PREFIX=/home/erica/mercedes-brain/install/src
+[1.387s] Invoking command in '/home/erica/mercedes-brain/build/src': /usr/bin/cmake --build /home/erica/mercedes-brain/build/src -- -j4 -l4
+[1.530s] Invoked command in '/home/erica/mercedes-brain/build/src' returned '0': /usr/bin/cmake --build /home/erica/mercedes-brain/build/src -- -j4 -l4

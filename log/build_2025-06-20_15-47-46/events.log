@@ -1,0 +1,224 @@
+[0.000000] (-) TimerEvent: {}
+[0.001574] (-) JobUnselected: {'identifier': 'brain'}
+[0.002133] (-) JobUnselected: {'identifier': 'serial'}
+[0.002649] (-) JobUnselected: {'identifier': 'serial_com'}
+[0.002846] (-) JobUnselected: {'identifier': 'teleop'}
+[0.003151] (gpio) JobQueued: {'identifier': 'gpio', 'dependencies': OrderedDict()}
+[0.003332] (gpio) JobStarted: {'identifier': 'gpio'}
+[0.038984] (gpio) JobProgress: {'identifier': 'gpio', 'progress': 'cmake'}
+[0.042475] (gpio) JobProgress: {'identifier': 'gpio', 'progress': 'build'}
+[0.045895] (gpio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/erica/mercedes-brain/build/gpio', '--', '-j4', '-l4'], 'cwd': '/home/erica/mercedes-brain/build/gpio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 18945 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/erica/mercedes-brain/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/mercedes-brain/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/gpio:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/mercedes-brain/build/gpio'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 18945 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/gpio:/opt/ros/humble')]), 'shell': False}
+[0.099039] (-) TimerEvent: {}
+[0.199842] (-) TimerEvent: {}
+[0.287086] (gpio) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gpio_node.dir/src/gpio_node.cpp.o\x1b[0m\n'}
+[0.300029] (-) TimerEvent: {}
+[0.400844] (-) TimerEvent: {}
+[0.501536] (-) TimerEvent: {}
+[0.602210] (-) TimerEvent: {}
+[0.702928] (-) TimerEvent: {}
+[0.803648] (-) TimerEvent: {}
+[0.904350] (-) TimerEvent: {}
+[1.005067] (-) TimerEvent: {}
+[1.105794] (-) TimerEvent: {}
+[1.206550] (-) TimerEvent: {}
+[1.307251] (-) TimerEvent: {}
+[1.407960] (-) TimerEvent: {}
+[1.508755] (-) TimerEvent: {}
+[1.609479] (-) TimerEvent: {}
+[1.710193] (-) TimerEvent: {}
+[1.810951] (-) TimerEvent: {}
+[1.911893] (-) TimerEvent: {}
+[2.012654] (-) TimerEvent: {}
+[2.113465] (-) TimerEvent: {}
+[2.214221] (-) TimerEvent: {}
+[2.314982] (-) TimerEvent: {}
+[2.415736] (-) TimerEvent: {}
+[2.516538] (-) TimerEvent: {}
+[2.617324] (-) TimerEvent: {}
+[2.718084] (-) TimerEvent: {}
+[2.818860] (-) TimerEvent: {}
+[2.919754] (-) TimerEvent: {}
+[3.020634] (-) TimerEvent: {}
+[3.121456] (-) TimerEvent: {}
+[3.222244] (-) TimerEvent: {}
+[3.323031] (-) TimerEvent: {}
+[3.423888] (-) TimerEvent: {}
+[3.524713] (-) TimerEvent: {}
+[3.625546] (-) TimerEvent: {}
+[3.726317] (-) TimerEvent: {}
+[3.827096] (-) TimerEvent: {}
+[3.927869] (-) TimerEvent: {}
+[4.028769] (-) TimerEvent: {}
+[4.129558] (-) TimerEvent: {}
+[4.230387] (-) TimerEvent: {}
+[4.331179] (-) TimerEvent: {}
+[4.431920] (-) TimerEvent: {}
+[4.532689] (-) TimerEvent: {}
+[4.633447] (-) TimerEvent: {}
+[4.734205] (-) TimerEvent: {}
+[4.834973] (-) TimerEvent: {}
+[4.935732] (-) TimerEvent: {}
+[5.036547] (-) TimerEvent: {}
+[5.137321] (-) TimerEvent: {}
+[5.238085] (-) TimerEvent: {}
+[5.338841] (-) TimerEvent: {}
+[5.439612] (-) TimerEvent: {}
+[5.540373] (-) TimerEvent: {}
+[5.641185] (-) TimerEvent: {}
+[5.741951] (-) TimerEvent: {}
+[5.842735] (-) TimerEvent: {}
+[5.943511] (-) TimerEvent: {}
+[6.044371] (-) TimerEvent: {}
+[6.145207] (-) TimerEvent: {}
+[6.245977] (-) TimerEvent: {}
+[6.346749] (-) TimerEvent: {}
+[6.447591] (-) TimerEvent: {}
+[6.548379] (-) TimerEvent: {}
+[6.649195] (-) TimerEvent: {}
+[6.750037] (-) TimerEvent: {}
+[6.850807] (-) TimerEvent: {}
+[6.951593] (-) TimerEvent: {}
+[7.052437] (-) TimerEvent: {}
+[7.153258] (-) TimerEvent: {}
+[7.254035] (-) TimerEvent: {}
+[7.354804] (-) TimerEvent: {}
+[7.455592] (-) TimerEvent: {}
+[7.556365] (-) TimerEvent: {}
+[7.657200] (-) TimerEvent: {}
+[7.757967] (-) TimerEvent: {}
+[7.858724] (-) TimerEvent: {}
+[7.959548] (-) TimerEvent: {}
+[8.060329] (-) TimerEvent: {}
+[8.161215] (-) TimerEvent: {}
+[8.261988] (-) TimerEvent: {}
+[8.362786] (-) TimerEvent: {}
+[8.463569] (-) TimerEvent: {}
+[8.564374] (-) TimerEvent: {}
+[8.665177] (-) TimerEvent: {}
+[8.765969] (-) TimerEvent: {}
+[8.866794] (-) TimerEvent: {}
+[8.967606] (-) TimerEvent: {}
+[9.068424] (-) TimerEvent: {}
+[9.169221] (-) TimerEvent: {}
+[9.270016] (-) TimerEvent: {}
+[9.370801] (-) TimerEvent: {}
+[9.471586] (-) TimerEvent: {}
+[9.572354] (-) TimerEvent: {}
+[9.673161] (-) TimerEvent: {}
+[9.773942] (-) TimerEvent: {}
+[9.874704] (-) TimerEvent: {}
+[9.937849] (gpio) StderrLine: {'line': b'\x1b[01m\x1b[K/home/erica/mercedes-brain/src/gpio/src/gpio_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GPIONode::rc_callback(ackermann_msgs::msg::AckermannDrive_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.938871] (gpio) StderrLine: {'line': b'\x1b[01m\x1b[K/home/erica/mercedes-brain/src/gpio/src/gpio_node.cpp:43:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst void*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.939346] (gpio) StderrLine: {'line': b'   43 |         write(27, \x1b[01;31m\x1b[Kdir\x1b[m\x1b[K);\n'}
+[9.939758] (gpio) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.940138] (gpio) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[9.940574] (gpio) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[Kbool\x1b[m\x1b[K\n'}
+[9.941072] (gpio) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/bits/sigstksz.h:24\x1b[m\x1b[K,\n'}
+[9.941461] (gpio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/signal.h:328\x1b[m\x1b[K,\n'}
+[9.941866] (gpio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/csignal:42\x1b[m\x1b[K,\n'}
+[9.942266] (gpio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152\x1b[m\x1b[K,\n'}
+[9.942670] (gpio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/erica/mercedes-brain/src/gpio/src/gpio_node.cpp:1\x1b[m\x1b[K:\n'}
+[9.943087] (gpio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/unistd.h:378:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 2 of \xe2\x80\x98\x1b[01m\x1b[Kssize_t write(int, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.943483] (gpio) StderrLine: {'line': b'  378 | extern ssize_t write (int __fd, \x1b[01;36m\x1b[Kconst void *__buf\x1b[m\x1b[K, size_t __n) __wur\n'}
+[9.943889] (gpio) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[9.944285] (gpio) StderrLine: {'line': b'\x1b[01m\x1b[K/home/erica/mercedes-brain/src/gpio/src/gpio_node.cpp:44:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst void*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.944801] (gpio) StderrLine: {'line': b'   44 |         write(22, \x1b[01;31m\x1b[K!dir\x1b[m\x1b[K);\n'}
+[9.945193] (gpio) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.945566] (gpio) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[9.945945] (gpio) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[Kbool\x1b[m\x1b[K\n'}
+[9.946330] (gpio) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/bits/sigstksz.h:24\x1b[m\x1b[K,\n'}
+[9.946712] (gpio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/signal.h:328\x1b[m\x1b[K,\n'}
+[9.947091] (gpio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/csignal:42\x1b[m\x1b[K,\n'}
+[9.947466] (gpio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152\x1b[m\x1b[K,\n'}
+[9.947857] (gpio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/erica/mercedes-brain/src/gpio/src/gpio_node.cpp:1\x1b[m\x1b[K:\n'}
+[9.948233] (gpio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/unistd.h:378:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 2 of \xe2\x80\x98\x1b[01m\x1b[Kssize_t write(int, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.949262] (gpio) StderrLine: {'line': b'  378 | extern ssize_t write (int __fd, \x1b[01;36m\x1b[Kconst void *__buf\x1b[m\x1b[K, size_t __n) __wur\n'}
+[9.949739] (gpio) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[9.974898] (-) TimerEvent: {}
+[10.075692] (-) TimerEvent: {}
+[10.176449] (-) TimerEvent: {}
+[10.277263] (-) TimerEvent: {}
+[10.378045] (-) TimerEvent: {}
+[10.478833] (-) TimerEvent: {}
+[10.579610] (-) TimerEvent: {}
+[10.680431] (-) TimerEvent: {}
+[10.781264] (-) TimerEvent: {}
+[10.882062] (-) TimerEvent: {}
+[10.982863] (-) TimerEvent: {}
+[11.083637] (-) TimerEvent: {}
+[11.184414] (-) TimerEvent: {}
+[11.285218] (-) TimerEvent: {}
+[11.386020] (-) TimerEvent: {}
+[11.486812] (-) TimerEvent: {}
+[11.587635] (-) TimerEvent: {}
+[11.688458] (-) TimerEvent: {}
+[11.789351] (-) TimerEvent: {}
+[11.890128] (-) TimerEvent: {}
+[11.990913] (-) TimerEvent: {}
+[12.091705] (-) TimerEvent: {}
+[12.192525] (-) TimerEvent: {}
+[12.293296] (-) TimerEvent: {}
+[12.394075] (-) TimerEvent: {}
+[12.494861] (-) TimerEvent: {}
+[12.595640] (-) TimerEvent: {}
+[12.696451] (-) TimerEvent: {}
+[12.797312] (-) TimerEvent: {}
+[12.898121] (-) TimerEvent: {}
+[12.999385] (-) TimerEvent: {}
+[13.100177] (-) TimerEvent: {}
+[13.201003] (-) TimerEvent: {}
+[13.301846] (-) TimerEvent: {}
+[13.402672] (-) TimerEvent: {}
+[13.503456] (-) TimerEvent: {}
+[13.604335] (-) TimerEvent: {}
+[13.705197] (-) TimerEvent: {}
+[13.805983] (-) TimerEvent: {}
+[13.906788] (-) TimerEvent: {}
+[14.007556] (-) TimerEvent: {}
+[14.108312] (-) TimerEvent: {}
+[14.209123] (-) TimerEvent: {}
+[14.309920] (-) TimerEvent: {}
+[14.410685] (-) TimerEvent: {}
+[14.511463] (-) TimerEvent: {}
+[14.612246] (-) TimerEvent: {}
+[14.713045] (-) TimerEvent: {}
+[14.813864] (-) TimerEvent: {}
+[14.914658] (-) TimerEvent: {}
+[15.015463] (-) TimerEvent: {}
+[15.116230] (-) TimerEvent: {}
+[15.217076] (-) TimerEvent: {}
+[15.317864] (-) TimerEvent: {}
+[15.418682] (-) TimerEvent: {}
+[15.519526] (-) TimerEvent: {}
+[15.620442] (-) TimerEvent: {}
+[15.721288] (-) TimerEvent: {}
+[15.822095] (-) TimerEvent: {}
+[15.922940] (-) TimerEvent: {}
+[16.023743] (-) TimerEvent: {}
+[16.124560] (-) TimerEvent: {}
+[16.225342] (-) TimerEvent: {}
+[16.326158] (-) TimerEvent: {}
+[16.426942] (-) TimerEvent: {}
+[16.527708] (-) TimerEvent: {}
+[16.628509] (-) TimerEvent: {}
+[16.729296] (-) TimerEvent: {}
+[16.830072] (-) TimerEvent: {}
+[16.930865] (-) TimerEvent: {}
+[17.031646] (-) TimerEvent: {}
+[17.132366] (-) TimerEvent: {}
+[17.233107] (-) TimerEvent: {}
+[17.333813] (-) TimerEvent: {}
+[17.434557] (-) TimerEvent: {}
+[17.535394] (-) TimerEvent: {}
+[17.636219] (-) TimerEvent: {}
+[17.737089] (-) TimerEvent: {}
+[17.838001] (-) TimerEvent: {}
+[17.938784] (-) TimerEvent: {}
+[18.039605] (-) TimerEvent: {}
+[18.100818] (gpio) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/gpio_node.dir/build.make:76: CMakeFiles/gpio_node.dir/src/gpio_node.cpp.o] Error 1\n'}
+[18.101712] (gpio) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gpio_node.dir/all] Error 2\n'}
+[18.102604] (gpio) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[18.108654] (gpio) CommandEnded: {'returncode': 2}
+[18.140050] (-) TimerEvent: {}
+[18.160678] (gpio) JobEnded: {'identifier': 'gpio', 'rc': 2}
+[18.172157] (-) EventReactorShutdown: {}
